@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.main-nav {
+  background-color: #183114;
+  display: flex;
+  gap: 500px;
+  height: 80px;
+}
+.logo {
+  color: #fcee21;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.navbar {
+  color: #fcee21;
+  font-size: 20px;
+  margin-top: 20px;
+}
+.navbar ul {
+  display: flex;
+  gap: 40px;
+}
+.hometext {
+  background-color: #183114;
+  display: flex;
+}
+.lefthome {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+.homeupper {
+  margin-left: 20px;
+  font-size: 15px;
+  color: #fcee21;
+}
+.homelower {
+  margin-top: 40px;
+  margin-left: 20px;
+  font-size: 10px;
+  color: aliceblue;
+}
+.homebuttons {
+  margin-top: 40px;
+  margin-left: 20px;
+}
+.newsletter {
+  height: 40px;
+  border-radius: 10px;
+  border-color: #fcee21;
+}
+.homebutton {
+  height: 40px;
+  border-radius: 10px;
+  border-color: #fcee21;
+  background-color: #fcee21;
+  color: #183114;
+}
+input[type="text"] {
+  background-color: #183114;
+  color: #183114;
+}
+.socialmedia {
+  margin-right: 20px;
+  color: #fcee21;
+  font-size: 40px;
+  margin-top: 80px;
+}
